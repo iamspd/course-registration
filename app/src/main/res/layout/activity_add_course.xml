@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".features.AddCourseActivity">
+
+    <TextView
+        style="@style/AllTitles"
+        android:layout_gravity="center"
+        android:text="@string/addCourses"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCourseName"
+        style="@style/AllEditTexts"
+        android:background="@drawable/edit_text_accent"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etDuration"
+        style="@style/AllEditTexts"
+        android:background="@drawable/edit_text_accent"
+        android:hint="@string/duration"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etDepartment"
+        style="@style/AllEditTexts"
+        android:background="@drawable/edit_text_accent"
+        android:hint="@string/dept"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etTuition"
+        style="@style/AllEditTexts"
+        android:background="@drawable/edit_text_accent"
+        android:hint="@string/fees"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        style="@style/AllButtons"
+        android:layout_gravity="center"
+        android:background="@drawable/button_accent"
+        android:onClick="addCourse"
+        android:text="@string/add" />
+
+</LinearLayout>

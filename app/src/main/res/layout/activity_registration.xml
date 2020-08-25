@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authenticate.RegistrationActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        style="@style/AllTitles"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/etFname"
+        style="@style/AllEditTexts"
+        android:hint="@string/fName"
+        android:padding="8dp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/edit_text_accent"/>
+
+    <EditText
+        android:id="@+id/etLname"
+        style="@style/AllEditTexts"
+        android:hint="@string/lName"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/edit_text_accent"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/AllEditTexts"
+        android:hint="@string/email"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/edit_text_accent"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/AllEditTexts"
+        android:hint="@string/pwd"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:background="@drawable/edit_text_accent"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        style="@style/AllEditTexts"
+        android:hint="@string/phone"
+        android:padding="8dp"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:background="@drawable/edit_text_accent"
+        android:textColorHint="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        style="@style/AllButtons"
+        android:layout_gravity="center"
+        android:text="@string/signup"
+        android:onClick="registerUser"
+        android:background="@drawable/button_accent"/>
+
+</LinearLayout>

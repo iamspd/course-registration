@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Educourse</string>
+    <string name="username">Username</string>
+    <string name="pwd">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Register</string>
+    <string name="register">Don \' t have an account? Sign up here </string>
+    <string name="img">Main Image</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="dept">Department</string>
+    <string name="duration">Duration</string>
+    <string name="fees">Tuition Fee</string>
+    <string name="submit">Submit</string>
+    <string name="hi">Hi, </string>
+    <string name="name">Name</string>
+    <string name="image">logo</string>
+    <string name="location">Show Location</string>
+    <string name="courses">View Courses</string>
+    <string name="addCourses">Add Course</string>
+    <string name="add">Add</string>
+    <string name="regCourse">Register</string>
+    <string name="profile">My Profile</string>
+    <string name="link">Visit College Website</string>
+    <string name="logout">Logout</string>
+    <string name="googleMaps_API_KEY">AIzaSyBdj90xCPAl9mrRd1KreVOxDS6CCMEvthY</string>
+
+</resources>

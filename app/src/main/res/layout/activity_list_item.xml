@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCourseName"
+        style="@style/AllTexts"
+        android:text="@string/app_name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCourseDepartment"
+        style="@style/AllTexts"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/name"/>
+</LinearLayout>
